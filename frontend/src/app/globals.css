@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent layout shift on scrollbar appear */
+html {
+  scrollbar-gutter: stable;
+}
+
+/* Tighten table cells globally */
+table {
+  border-collapse: collapse;
+}
+
+/* Subtle focus ring that matches the design */
+:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
